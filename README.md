@@ -1,4 +1,4 @@
-# <img src="./assets/images/logo_bulb.png" width=20% align=right /> BrillaStore ©
+# <img src="./assets/images/logo_bulb.png" width=8% align=right /> BrillaStore Ⓡ
 
 
 **Luxury Lights** 💡
