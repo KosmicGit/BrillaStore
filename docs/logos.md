@@ -3,7 +3,7 @@
 Estos logos preservan la identidad de la marca, así como sus casos de uso especificos.
 
 ## Logo
-<img width="50%" src="../assets/images/logo_bulb.png">
+<img width="15%" src="../assets/images/logo_bulb.png">
 
 * **Uso principal:** Este logo minimalista debe utilizarse en situaciones donde se quiera un diseño simple o en lugares donde el espacio es limitado. Es ideal para favicons, marcas de agua, o elementos pequeños.
 
