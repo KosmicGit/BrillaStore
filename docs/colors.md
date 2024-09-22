@@ -6,8 +6,8 @@ La utilización de estos códigos de colores garantiza la identidad de la marca,
 
 | Color               | Código Hexadecimal | Muestra                    |
 |---------------------|--------------------|----------------------------|
-| **Primario**         | `#ffcb69`          | <span style="background-color:#ffcb69; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
-| **Secundario**       | `#2ecc71`          | <span style="background-color:#2ecc71; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
+| **Primario**         | `#ffd700`          | <span style="background-color:#ffd700; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
+| **Secundario**       | `#ffe4c4`          | <span style="background-color:#ffe4c4; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 | **Accento**          | `#e74c3c`          | <span style="background-color:#e74c3c; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 | **Fondo**     | `#2c3e50`          | <span style="background-color:#2c3e50; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 
@@ -17,16 +17,16 @@ La utilización de estos códigos de colores garantiza la identidad de la marca,
 
 El color primario es el que representa la identidad visual principal de la marca. Utilízalo para encabezados, botones principales y elementos clave.
 
-- **Código:** `#3498db`
-- **RGB:** `52, 152, 219`
+- **Código:** `#ffd700`
+- **RGB:** `255, 215, 0`
 - **Uso recomendado:** Botones principales, encabezados.
 
 ### Color Secundario
 
 El color secundario complementa al primario y puede ser utilizado en elementos de soporte como botones secundarios, fondos, y detalles.
 
-- **Código:** `#2ecc71`
-- **RGB:** `46, 204, 113`
+- **Código:** `#ffe4c4`
+- **RGB:** `255, 228, 196`
 - **Uso recomendado:** Botones secundarios, iconografía, detalles.
 
 ### Color de Accento
@@ -39,5 +39,6 @@ El color de accento se usa para llamar la atención sobre elementos clave, como 
 
 ### Colores de Fondo
 
-- **Fondo Claro:** `#ecf0f1`
-- **Fondo Oscuro:** `#2c3e50`
+- **Código:** `#2c3e50`
+- **RGB:** 
+
