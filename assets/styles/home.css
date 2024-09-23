@@ -3,7 +3,7 @@
     height: 70vh;
     
     & #first-container-image {
-        background: url('/assets/images/lampara1.jpg');
+        background: url('../images/lampara1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -40,7 +40,7 @@
     }
 
     & #second-container-image {
-        background: url('/assets/images/lampara2.jpg');
+        background: url('../images/lampara2.jpg');
         background-position: center;
         background-size: cover;
         width: 40%;

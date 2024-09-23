@@ -1,8 +1,9 @@
 :root {
-    --color-principal: gold;
+    --color-principal: rgba(163, 110, 29, 1);
     --color-secundario: #ffe4c4;
     --color-terciario: black;
     --color-cuaternario: rgba(0, 0, 0, 0.5);
+    --color-quinto: white;
 }
 
 * {
@@ -106,12 +107,11 @@ i {
         -webkit-mask-size: cover;
     }
 }
-
-
+ 
 #main-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
     background-color: var(--color-secundario);
 }
 
@@ -120,12 +120,7 @@ i {
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-terciario);
-<<<<<<< HEAD:assets/styles/style.css
     padding: 1rem;
-    max-height: 50%;
-=======
-    padding: 2rem;
->>>>>>> parent of 12abcfe (homepage modification padding header):website/style.css
     position: sticky;
     top: 0;
 
@@ -178,12 +173,6 @@ i {
     }
 }
 
-#main-content {
-    text-align: center;
-
-}
-
-
 #footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -234,5 +223,4 @@ i {
         margin: auto;
         font-size: 24px;
     }
-    
 }
