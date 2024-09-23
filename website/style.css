@@ -120,7 +120,7 @@ i {
     align-items: center;
     justify-content: space-between;
     background-color: var(--color-terciario);
-    padding: 2rem;
+    padding: 1rem;
     position: sticky;
     top: 0;
 
