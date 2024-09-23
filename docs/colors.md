@@ -8,7 +8,7 @@ La utilización de estos códigos de colores garantiza la identidad de la marca,
 |---------------------|--------------------|----------------------------|
 | **Primario**         | `#ffd700`          | <span style="background-color:#ffd700; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 | **Secundario**       | `#ffe4c4`          | <span style="background-color:#ffe4c4; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
-| **Accento**          | `#e74c3c`          | <span style="background-color:#e74c3c; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
+| **Accento**          | `#a36e1d`          | <span style="background-color:#a36e1d; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 | **Fondo**     | `#2c3e50`          | <span style="background-color:#2c3e50; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
 
 ## Detalle de cada color
@@ -33,8 +33,8 @@ El color secundario complementa al primario y puede ser utilizado en elementos d
 
 El color de accento se usa para llamar la atención sobre elementos clave, como notificaciones o acciones importantes.
 
-- **Código:** `#e74c3c`
-- **RGB:** `231, 76, 60`
+- **Código:** `#a36e1d`
+- **RGB:** `163, 110, 29`
 - **Uso recomendado:** Notificaciones de error, acciones críticas.
 
 ### Colores de Fondo
