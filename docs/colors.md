@@ -1,4 +1,4 @@
-# [🔙](../README.md) Colores 🖌️ (In Progress)
+# [🔙](../README.md) Colores 🖌️
 
 La utilización de estos códigos de colores garantiza la identidad de la marca, así como transmite los valores que predica.
 
@@ -6,10 +6,9 @@ La utilización de estos códigos de colores garantiza la identidad de la marca,
 
 | Color               | Código Hexadecimal | Muestra                    |
 |---------------------|--------------------|----------------------------|
-| **Primario**         | `#ffd700`          | <span style="background-color:#ffd700; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
-| **Secundario**       | `#ffe4c4`          | <span style="background-color:#ffe4c4; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
-| **Accento**          | `#a36e1d`          | <span style="background-color:#a36e1d; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
-| **Fondo**     | `#2c3e50`          | <span style="background-color:#2c3e50; padding: 5px 15px; border-radius: 5px; display: inline-block;"></span> |
+| **Primario**         | `#a36e1d`          | <img width="30%" src="../assets/images/primary.png" style="border-radius: 5px"> |
+| **Secundario**       | `#ffe4c4`          | <img width="30%" src="../assets/images/secundary.png" style="border-radius: 5px"> |
+| **Fondo**            | `#000000`          | <img width="30%" src="../assets/images/background.png" style="border-radius: 5px"> |
 
 ## Detalle de cada color
 
@@ -17,8 +16,8 @@ La utilización de estos códigos de colores garantiza la identidad de la marca,
 
 El color primario es el que representa la identidad visual principal de la marca. Utilízalo para encabezados, botones principales y elementos clave.
 
-- **Código:** `#ffd700`
-- **RGB:** `255, 215, 0`
+- **Código:** `#a36e1d`
+- **RGB:** `163, 110, 29`
 - **Uso recomendado:** Botones principales, encabezados.
 
 ### Color Secundario
@@ -29,16 +28,8 @@ El color secundario complementa al primario y puede ser utilizado en elementos d
 - **RGB:** `255, 228, 196`
 - **Uso recomendado:** Botones secundarios, iconografía, detalles.
 
-### Color de Accento
-
-El color de accento se usa para llamar la atención sobre elementos clave, como notificaciones o acciones importantes.
-
-- **Código:** `#a36e1d`
-- **RGB:** `163, 110, 29`
-- **Uso recomendado:** Notificaciones de error, acciones críticas.
-
 ### Colores de Fondo
 
-- **Código:** `#2c3e50`
-- **RGB:** 
+- **Código:** `#000000`
+- **RGB:** `0, 0, 0`
 
