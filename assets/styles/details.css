@@ -33,13 +33,19 @@
   }
   
   .old-price {
+    font-size: 25px !important;
     text-decoration: line-through;
     color: #ccb07a;
   }
   
   .new-price {
-    color: rgba(199, 67, 67, 1);
+    font-size: 25px !important;
+    color: rgba(163, 110, 29, 1);
     font-weight: bold;
+  }
+
+  .descText {
+    color: rgba(163, 110, 29, 1);
   }
   
   .box h2 {
@@ -49,9 +55,8 @@
   }
   
   .box span {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
-    color: rgba(163, 110, 29, 1);
   }
   
   .description {
@@ -121,5 +126,7 @@
   }
   
   .sku, .categories {
+    text-align: left;
+    font-size: 14px !important;
     color: rgba(0, 0, 0, 0.6);
   }
