@@ -1,6 +1,6 @@
 #main-content {
     display: flex;
-    height: 65vh;
+    height: 70vh;
     
     & #first-container-image {
         background: url('/assets/images/lampara1.jpg');
@@ -19,6 +19,7 @@
         & .text-image-small {
             font-size: 20px;
             color: var(--color-quinto);
+            line-height: 35px;
         }
 
         & button {
@@ -54,6 +55,7 @@
         & .text-image-small {
             font-size: 20px;
             color: var(--color-quinto);
+            padding: 2% 0% 0% 0%;
         }
 
         & .text-price {
