@@ -9,23 +9,23 @@
         background-size: cover;
         width: 60%;
         padding: 30px;
-        text-shadow: 0px 0px 10px var(--color-terciario);
+        text-shadow: 0px 0px 10px var(--color-terciary);
         
         & .text-image {
             font-size: 50px;
-            color: var(--color-quinto);
+            color: var(--color-fifth);
         }
 
         & .text-image-small {
             font-size: 20px;
-            color: var(--color-quinto);
+            color: var(--color-fifth);
             line-height: 35px;
         }
 
         & button {
             margin: 3% 0% 0% 0%;
             padding: 2% 5%;
-            background-color: var(--color-terciario);
+            background-color: var(--color-terciary);
             color: white;
             font-size: 20px;
             border: none;
@@ -34,8 +34,8 @@
         & button:hover {
             transition: 0.3s;
             cursor: pointer;
-            background-color: var(--color-secundario);
-            color: var(--color-terciario);
+            background-color: var(--color-secondary);
+            color: var(--color-terciary);
         }
     }
 
@@ -45,29 +45,29 @@
         background-size: cover;
         width: 40%;
         padding: 30px;
-        text-shadow: 0px 0px 10px var(--color-terciario);
+        text-shadow: 0px 0px 10px var(--color-terciary);
 
         & .text-image {
             font-size: 35px;
-            color: var(--color-quinto);
+            color: var(--color-fifth);
         }
         
         & .text-image-small {
             font-size: 20px;
-            color: var(--color-quinto);
+            color: var(--color-fifth);
             padding: 2% 0% 0% 0%;
         }
 
         & .text-price {
             padding: 3% 0% 0% 0%;
             font-size: 25px;
-            color: var(--color-quinto);
+            color: var(--color-fifth);
         }
 
         & button {
             margin: 3% 0% 0% 0%;
             padding: 3% 6%;
-            background-color: var(--color-terciario);
+            background-color: var(--color-terciary);
             color: white;
             font-size: 20px;
             border: none;
@@ -76,8 +76,8 @@
         & button:hover {
             transition: 0.3s;
             cursor: pointer;
-            background-color: var(--color-secundario);
-            color: var(--color-terciario);
+            background-color: var(--color-secondary);
+            color: var(--color-terciary);
         }
     }
 }
