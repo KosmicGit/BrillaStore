@@ -3,6 +3,7 @@
     --color-secundario: #ffe4c4;
     --color-terciario: black;
     --color-cuaternario: rgba(0, 0, 0, 0.5);
+    --color-quinto: white;
 }
 
 * {
@@ -107,11 +108,10 @@ i {
     }
 }
 
-
 #main-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     background-color: var(--color-secundario);
 }
 
@@ -121,7 +121,6 @@ i {
     justify-content: space-between;
     background-color: var(--color-terciario);
     padding: 2rem;
-    max-height: 50%;
     position: sticky;
     top: 0;
 
@@ -172,10 +171,6 @@ i {
             );
         }
     }
-}
-
-#main-content {
-
 }
 
 #footer {
