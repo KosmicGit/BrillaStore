@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brilla Store: Products Gallery</title>
+    <title>BrillaStore: Product Details</title>
+    <meta name="description" content="Luxury Lights 💡">
     <link rel="stylesheet" href="../assets/styles/style.css">
-    <link rel="stylesheet" href="../assets/styles/gallery.css">
+    <link rel="stylesheet" href="../assets/styles/details.css">
     <link rel="icon" type="image/png" href="../assets/images/logo_bulb.png" />
 </head>
 <body>
@@ -21,56 +22,34 @@
         </header>
 
         <main id="main-content">
-            <div id="head-title">
-                <p class="text-head">Catálogo/iluminación/lámparas</p>
-                <h2 id="title-head">Cátalogo de lámparas</h2>
-                <p class="text-head">Mostrando 1-9 de 9 resultados</p>
-            </div>
-            <div id="gallery">
-                <div class="lamp">
-                    <img src="../assets/images/lampara1.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante Cuboid Frame ®</p>
-                    <p class="price-lamp"><del>49,99€</del><strong>39,99€</strong></p>
+            <div class="box">
+                <div>
+                    <img src="../assets/images/lampara1.jpg" alt="Lámpara Colgante Cuboid Frame">
                 </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara2.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante blanco carne</p>
-                    <p class="price-lamp"><del>49,99€</del><strong>39,99€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara3.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante redonda cristal</p>
-                    <p class="price-lamp"><del>29,69€</del><strong>24,10€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara4.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante forma hélice</p>
-                    <p class="price-lamp"><del>50,60€</del><strong>40,20€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara5.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante de madera</p>
-                    <p class="price-lamp"><del>30,99€</del><strong>27,99€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara6.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante medusa</p>
-                    <p class="price-lamp"><del>43,99€</del><strong>39,99€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara7.jpg" alt="image-lamp">
-                    <p class="name-lamp">Flexo fino escritorio/salón</p>
-                    <p class="price-lamp"><del>15,99€</del><strong>12,99€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara8.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara mesita noche blanca</p>
-                    <p class="price-lamp"><del>20,99€</del><strong>14,99€</strong></p>
-                </div>
-                <div class="lamp">
-                    <img src="../assets/images/lampara9.jpg" alt="image-lamp">
-                    <p class="name-lamp">Lámpara colgante forma farol</p>
-                    <p class="price-lamp"><del>35,99€</del><strong>29,99€</strong></p>
+                <div>
+                    <h1>Lámpara colgante Cuboid Frame ®</h1>
+                    <p>
+                        <span class="old-price">49,99€</span>
+                        <span class="new-price">39,99€</span>
+                    </p>
+                    <h2>Descripción</h2>
+                    <div class="description">
+                        <span class="descText">Esta elegante lámpara colgante de diseño minimalista combina 
+                            materiales de alta calidad y colores cálidos, perfecta para crear 
+                            ambientes acogedores y modernos. Su forma de cubo y su acabado 
+                            mate aportan un toque sofisticado a cualquier espacio, 
+                            ideal para decorar salones, comedores o áreas de trabajo.</span>
+                    </div>
+                    <div class="purchase-section">
+                        <button class="decrease">-</button>
+                        <button disabled class="quantity">1</button>
+                        <button class="increase">+</button>
+                        <button class="add-to-cart">Añadir al carrito</button>
+                    </div>
+                    <div class="product-info">
+                        <span class="sku">SKU: 1235820955</span>
+                        <span class="categories">categorías: Lámpara, interiores, moderno</span>
+                    </div>
                 </div>
             </div>
         </main>
@@ -135,6 +114,27 @@
 
         </footer>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const decreaseButton = document.querySelector('.decrease');
+            const increaseButton = document.querySelector('.increase');
+            const quantityLabel = document.querySelector('.quantity');
+
+            let quantity = parseInt(quantityLabel.textContent, 10);
+
+            increaseButton.addEventListener('click', () => {
+                quantity += 1;
+                quantityLabel.textContent = quantity;
+            });
+
+            decreaseButton.addEventListener('click', () => {
+                if (quantity > 1) {
+                    quantity -= 1;
+                    quantityLabel.textContent = quantity;
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
