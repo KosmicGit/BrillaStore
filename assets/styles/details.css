@@ -2,8 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
-    max-width: 1200px;
+    padding: 4rem;
+    max-width: 1400px;
     margin: 0 auto;
   }
   
@@ -11,7 +11,7 @@
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0);
   }
   
   .box div {
@@ -84,12 +84,10 @@
   .purchase-section .decrease, 
   .purchase-section .increase {
     background-color: black;
-    
   }
 
   .purchase-section button:focus {
     background-color: #ccb07a;
-    
   }
 
   .purchase-section .decrease:focus {
@@ -99,7 +97,6 @@
 
   .purchase-section .increase:focus {
     background-color: #ccb07a;
-    
   }
   
   .purchase-section .quantity {
