@@ -1,13 +1,13 @@
-# [🔙](../README.md) Tipografía 🔤 (In progress)
+# [🔙](../README.md) Tipografía 🔤
 
 La tipografía es fundamental para mantener la coherencia visual y transmitir el mensaje de la marca. A continuación, se describen las fuentes tipográficas principales y secundarias, así como sus usos recomendados.
 
 ## Tipografías
 
-| Nombre de la Fuente      | Estilo                 | Tamaños disponibles        | Ejemplo de Uso                       |
-|--------------------------|------------------------|----------------------------|--------------------------------------|
-| **Primaria**: Futura     | Light                  | 14px, 16px, 24px, 25px     | Títulos, subtítulos y cuerpo de texto|
-| **Secundaria**: Futura   | Light                  |                            | Logos                                |
+| Nombre de la Fuente                     | Estilo                 | Tamaños disponibles        | Ejemplo de Uso                       |
+|-----------------------------------------|------------------------|----------------------------|--------------------------------------|
+| **Primaria**: Futura                    | Light                  | 14px, 16px, 24px, 25px     | Títulos, subtítulos y cuerpo de texto|
+| **Secundaria**: Alumni Sans Pinstripe   | Regular                | 50px                       | Logos                                |
 
 ### Detalle de cada tipografía
 
@@ -30,18 +30,18 @@ La fuente **Futura** es la principal y se utiliza en todo el cuerpo de texto as�
 }
 ```
 
-### Tipografía Secundaria: Open Sans
+### Tipografía Secundaria: Alumni Sans Pinstripe
 
-La fuente **** es utilizada para títulos, subtítulos y elementos que necesitan destacar. Ofrece un contraste claro con la fuente primaria.
+La fuente **Alumni Sans Pinstripe** es utilizada para títulos, subtítulos y elementos que necesitan destacar. Ofrece un contraste claro con la fuente primaria.
 
-- **Estilos disponibles**: .
-- **Tamaño base**: 14px.
+- **Estilos disponibles**: Regular.
+- **Tamaño base**: 50px.
 - **Uso recomendado**: Logos.
 
 ```css
-font-family: 'Roboto', sans-serif;
-font-weight: 400; /* Regular */
+@font-face {
+    font-family: 'AlumniSansPinstripe';
+    src: url('ruta/a/tu/fuente/AlumniSansPinstripe-Regular.ttf');
+    font-weight: 400px; /* Regular */
+}
 ```
-
-## Jerarquía de Títulos
-
