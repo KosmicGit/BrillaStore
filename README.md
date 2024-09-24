@@ -21,12 +21,12 @@ Estos son los diseños de la maqueta de la interfaz web creados por nuestros mej
 Han sido ideados en base a nuestra paleta de colores que mantienen y perduran nuestra identidad.
 
 * Portada:
-<img src="./assets/images/ApplicationCover.png" width=100% draggable=false>
+<img src="./assets/images/ApplicationCover.png" width=100%>
 
 
 * Galeria de productos:
-<img src="./assets/images/ProductsGallery.png" width=100% draggable=false>
+<img src="./assets/images/ProductsGallery.png" width=100%>
 
 
 * Detalles del producto:
-<img src="./assets/images/ProductDetails.png" width=100% draggable=false>
+<img src="./assets/images/ProductDetails.png" width=100%>
