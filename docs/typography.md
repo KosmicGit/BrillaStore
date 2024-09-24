@@ -4,48 +4,39 @@ La tipografía es fundamental para mantener la coherencia visual y transmitir el
 
 ## Tipografías
 
-| Nombre de la Fuente      | Estilo                 | Ejemplo de Uso        |
-|--------------------------|------------------------|-----------------------|
-| **Primaria**: Futura | Light      | 14px, 18px  | Títulos, subtítulos y cuerpo de texto|
-| **Secundaria**: Futura   | Light      | 16px        | Cuerpo de texto                  |
+| Nombre de la Fuente      | Estilo                 | Tamaños disponibles        | Ejemplo de Uso                       |
+|--------------------------|------------------------|----------------------------|--------------------------------------|
+| **Primaria**: Futura     | Light                  | 14px, 16px, 24px, 25px     | Títulos, subtítulos y cuerpo de texto|
+| **Secundaria**: Futura   | Light                  |                            | Logos                                |
 
 ### Detalle de cada tipografía
 
 ---
 
-### Tipografía Primaria: Roboto
+### Tipografía Primaria: Futura
 
-La fuente **Roboto** es la principal y se utiliza en todo el cuerpo de texto. Su diseño moderno y legible la hace ideal para contenido extenso y fácil de leer.
+La fuente **Futura** es la principal y se utiliza en todo el cuerpo de texto así como para títulos, subtítulos y elementos que necesitan destacar. Su diseño moderno y legible la hace ideal para contenido extenso y fácil de leer.
 
-- **Estilos disponibles**: Regular, Bold, Italic.
+- **Estilos disponibles**: Light.
 - **Tamaño base**: 16px.
-- **Uso recomendado**: Cuerpo de texto en párrafos, botones, etiquetas.
+- **Tamaños**: 14px (Texto normal), 16px (Buscador de productos), 24px (Copyright), 25px (Título del footer).
+- **Uso recomendado**: Cuerpo de texto en párrafos, botones, etiquetas, encabezados de secciones, menús de navegación y textos destacados.
 
 ```css
-font-family: 'Roboto', sans-serif;
-font-weight: 400; /* Regular */
+@font-face {
+    font-family: 'FuturaLight';
+    src: url("../fonts/futura-light.ttf");
+    font-weight: 300; /* Light */
+}
 ```
 
 ### Tipografía Secundaria: Open Sans
 
-La fuente **Open Sans** es utilizada para títulos, subtítulos y elementos que necesitan destacar. Ofrece un contraste claro con la fuente primaria.
+La fuente **** es utilizada para títulos, subtítulos y elementos que necesitan destacar. Ofrece un contraste claro con la fuente primaria.
 
-- **Estilos disponibles**: Light, SemiBold.
-- **Tamaño base**: 14px (subtítulos), 18px (títulos).
-- **Uso recomendado**: Encabezados de secciones, menús de navegación, textos destacados.
-
-```css
-font-family: 'Roboto', sans-serif;
-font-weight: 400; /* Regular */
-```
-
-### Tipografía Primaria: Roboto
-
-La fuente **Roboto** es la principal y se utiliza en todo el cuerpo de texto. Su diseño moderno y legible la hace ideal para contenido extenso y fácil de leer.
-
-- **Estilos disponibles**: Regular, Bold, Italic.
-- **Tamaño base**: 16px.
-- **Uso recomendado**: Cuerpo de texto en párrafos, botones, etiquetas.
+- **Estilos disponibles**: .
+- **Tamaño base**: 14px.
+- **Uso recomendado**: Logos.
 
 ```css
 font-family: 'Roboto', sans-serif;
