@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'FuturaLight';
+    src: url("../fonts/futura-light.ttf");
+    font-weight: 300;
+}
+
 :root {
     --color-principal: rgba(163, 110, 29, 1);
     --color-secondary: #ffe4c4;
     --color-ternary: black;
     --color-cuaternary: rgba(0, 0, 0, 0.5);
     --color-fifth: white;
-    --font-family: fantasy;
+    --font-family: 'FuturaLight';
 }
 
 * {
