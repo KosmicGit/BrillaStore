@@ -12,8 +12,9 @@ BrillaStore es una empresa especializada en la creación y distribución de lám
 ## Guia de estilos 📐
 
 * [Logos 🏞️](./docs/logos.md)
-* [Tipografía 🔤](./docs/typography.md) (En progreso)
+* [Tipografía 🔤](./docs/typography.md)
 * [Guía de Colores 🎨](./docs/colors.md)
+* [Estructura de elementos](./docs/structure.md) (In Progress)
 
 ## Diseños
 Estos son los diseños de la maqueta de la interfaz web creados por nuestros mejores Diseñadores Web en conjunto con los Ingenieros.
