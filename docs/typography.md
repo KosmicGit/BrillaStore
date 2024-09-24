@@ -4,10 +4,10 @@ La tipografía es fundamental para mantener la coherencia visual y transmitir el
 
 ## Tipografías
 
-| Nombre de la Fuente      | Estilo                 | Tamaño Base | Ejemplo de Uso        |
-|--------------------------|------------------------|-------------|-----------------------|
-| **Primaria**: Roboto      | Regular, Bold, Italic  | 16px        | Cuerpo de texto       |
-| **Secundaria**: Open Sans | Light, SemiBold        | 14px, 18px  | Títulos y subtítulos  |
+| Nombre de la Fuente      | Estilo                 | Ejemplo de Uso        |
+|--------------------------|------------------------|-----------------------|
+| **Primaria**: Futura | Light      | 14px, 18px  | Títulos, subtítulos y cuerpo de texto|
+| **Secundaria**: Futura   | Light      | 16px        | Cuerpo de texto                  |
 
 ### Detalle de cada tipografía
 
