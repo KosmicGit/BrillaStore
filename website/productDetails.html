@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <script src="./main.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BrillaStore: Product Details</title>
     <meta name="description" content="Luxury Lights 💡">
@@ -115,25 +116,7 @@
         </footer>
     </div>
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const decreaseButton = document.querySelector('.decrease');
-            const increaseButton = document.querySelector('.increase');
-            const quantityLabel = document.querySelector('.quantity');
-
-            let quantity = parseInt(quantityLabel.textContent, 10);
-
-            increaseButton.addEventListener('click', () => {
-                quantity += 1;
-                quantityLabel.textContent = quantity;
-            });
-
-            decreaseButton.addEventListener('click', () => {
-                if (quantity > 1) {
-                    quantity -= 1;
-                    quantityLabel.textContent = quantity;
-                }
-            });
-        });
+        quantityBtn();
     </script>
 </body>
 
