@@ -86,16 +86,12 @@
     background-color: black;
   }
 
-  .purchase-section button:focus {
-    background-color: #ccb07a;
-  }
-
-  .purchase-section .decrease:focus {
+  .purchase-section .decrease:hover {
     background-color: #ccb07a;
     
   }
 
-  .purchase-section .increase:focus {
+  .purchase-section .increase:hover {
     background-color: #ccb07a;
   }
   
@@ -109,6 +105,10 @@
   .purchase-section .add-to-cart {
     margin-left: 20px;
     background-color: #000;
+  }
+
+  .purchase-section .add-to-cart:hover {
+    background-color: #ccb07a;
   }
   
   .product-info {
